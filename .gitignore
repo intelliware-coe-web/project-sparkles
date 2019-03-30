@@ -4,3 +4,5 @@ test/integration/screenshots-current/
 _site/
 .DS_Store
 .idea/
+.firebase/
+firebase-debug.log
