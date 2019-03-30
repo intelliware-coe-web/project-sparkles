@@ -22,5 +22,8 @@ module.exports = {
       urlPattern: /^https:\/\/fonts.gstatic.com\//,
       handler: 'fastest'
     }
-  ]
+  ],
+  // needed for Firebase Auth
+  navigateFallback: '/index.html',
+  navigateFallbackWhitelist: [ /^\/[^\_]+\/?/ ]
 };
