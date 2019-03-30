@@ -112,5 +112,21 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     <script src="node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
     <!-- Built with love using PWA Starter Kit -->
     <script type="module" src="src/components/my-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyDG0iqtNFOL8VKC25W5Lx-vkX9a3wvVhQk",
+        authDomain: "project-sparkles-75130.firebaseapp.com",
+        databaseURL: "https://project-sparkles-75130.firebaseio.com",
+        projectId: "project-sparkles-75130",
+        storageBucket: "project-sparkles-75130.appspot.com",
+        messagingSenderId: "601200976041"
+      };
+      firebase.initializeApp(config);
+    </script>
+    <script>
+      const messaging = firebase.messaging();
+    </script>
   </body>
 </html>
